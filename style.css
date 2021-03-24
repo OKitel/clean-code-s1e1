@@ -97,19 +97,13 @@ p > button:hover {
 
 /* Task list */
 li {
-<<<<<<< HEAD
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-=======
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
->>>>>>> 582393d (refactor: correction of indentation according to rule 1.1 in html-and-css.md)
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 li > * {
   vertical-align: middle;
