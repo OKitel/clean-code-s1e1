@@ -6,24 +6,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.top-section {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.top-section img {
+.header img {
   width: 100%;
 }
 
-.top-section .more-inf {
+.header .header__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .top-section { 
+  .header { 
     text-align: center;
   }
 
