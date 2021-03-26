@@ -86,7 +86,7 @@ h3,
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,7 +99,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.input-text:focus {
   color: #333;
 }
 
@@ -145,7 +145,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+.input-text {
   width: 226px;
 }
 
@@ -176,7 +176,7 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+ul li.edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
