@@ -114,10 +114,6 @@ h3,
   width: 318px;
 }
 
-.add-task__button:hover {
-  color: #0fc57c;
-}
-
 /* Task list */
 
 li {
@@ -147,10 +143,6 @@ li > label {
 
 .input-text {
   width: 226px;
-}
-
-.delete-button:hover {
-  color: #cf2323;
 }
 
 .delete-button img {
