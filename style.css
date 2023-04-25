@@ -117,7 +117,7 @@ button {
 /* Task list */
 
 .todo-task__list-item, 
-.complited-task__list-item {
+.completed-task__list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -128,7 +128,7 @@ button {
 }
 
 .todo-task__list-item > *,
-.complited-task__list-item > * {
+.completed-task__list-item > * {
   vertical-align: middle;
 }
 
@@ -136,7 +136,7 @@ button {
   margin: 0 10px;
 }
 
-.complited-task__list-item .task-label,
+.completed-task__list-item .task-label,
 .todo-task__list-item .task-label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -168,7 +168,7 @@ button {
 /* Edit Task */
 
 .todo-task__list-item .input-text,
-.complited-task__list-item .input-text{
+.completed-task__list-item .input-text{
   display: none;
 }
 
