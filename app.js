@@ -19,20 +19,22 @@ const createNewTaskElement=function(taskString){
   const deleteButtonImg=document.createElement("img");
 
   label.innerText=taskString;
-  label.className="task";
+  label.className="task task-label";
 
-  
+  checkBox.className="input-checkbox";
   checkBox.type="checkbox";
   editInput.type="text";
   editInput.className="task input-text";
 
   editButton.innerText="Edit";
-  editButton.className="edit-button";
+  editButton.className="button edit-button";
 
-  deleteButton.className="delete-button";
+  deleteButton.className="button delete-button";
   deleteButtonImg.src="./remove.svg";
+  deleteButtonImg.className="delete-button__img";
   deleteButton.appendChild(deleteButtonImg);
 
+  listItem.className="todo-task__list-item";
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
   listItem.appendChild(editInput);
